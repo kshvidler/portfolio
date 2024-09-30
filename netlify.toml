@@ -4,5 +4,5 @@
   functions = "netlify/functions"
 
 [context.production.environment]
-  NODE_VERSION = "16.x"
-  PNPM_VERSION = "7.x"
+  NODE_VERSION = "18.17.1"
+  PNPM_VERSION = "9.1.4"
