@@ -124,7 +124,7 @@ export default function Page() {
                   Check out my latest work
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  I&apos;ve worked on a variety of projects, unfortunately I can't share most of them here. More public projects coming soon!
+                  I&apos;ve worked on a variety of projects, unfortunately I can&apos;t share most of them here. More public projects coming soon!
                 </p>
               </div>
             </div>
