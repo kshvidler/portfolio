@@ -47,24 +47,24 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/kshvidler",
+        url: "https://git.new/kshvidler",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://git.new/kshvidler",
+        url: "https://dub.sh/kshvidler",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto: kshvidler@gmail.com",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
     },
   },
