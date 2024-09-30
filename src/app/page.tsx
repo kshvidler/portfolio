@@ -212,7 +212,7 @@ export default function Page() {
                 >
                   to connect on LinkedIn and DM me
                 </Link>{" "}
-                and I&apos;ll respond whenever I can.
+                and I&apos;ll respond whenever I can. You can also email me at kshvidler@gmail.com
               </p>
             </div>
           </BlurFade>
