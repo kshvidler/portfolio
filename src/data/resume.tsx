@@ -103,7 +103,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Data Science Intern",
-      logoUrl: null,
+      logoUrl: "",
       start: "August 2020",
       end: "September 2020",
       description:
@@ -173,7 +173,7 @@ export const DATA = {
         "Typescript",
         "git fork",
         "keyboard",
-        "lack of frontend knowledge",
+        "lack of frontend skills",
         "Shadcn UI",
         "Magic UI",
       ],
