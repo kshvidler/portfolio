@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Data Scientist & Data Engineer with a proven track record of designing scalable cloud infrastructure and building AI-powered solutions. I am also a Maths enthusiast with an Masters degree in Statistics from University of Warwick",
   summary:
-    "As a founding engineer at [Artera](https://artera.ae), a cutting edge art-tech platform, I architected, deployed and maintained scalable cloud infrastructure on **AWS**, optimized for high availability and cost efficiency. I possess deep practical experience in **Python**, **SQL** and **NoSQL** databases, event-driven architectures, **ETL** pipelines and **REST API**s.\n\nIn addition to my Data Engineering and Backend development skills I led the development of key AI-powered features at Artera, including the **Recommender System**, **'Image Capture'**, **'AI-tagging'** and more! \n\n Sometimes I create Telegram or Discord bots for fun, [contact me](#contact) if you need some help, I'm sure we can build something cool together! 🤗 \n\nEmail: **kshvidler@gmail.com**",
+    "As a founding engineer at [Artera](https://artera.ae), a cutting edge art-tech platform, I architected, deployed and maintained scalable cloud infrastructure on **AWS**, optimized for high availability and cost efficiency. I possess deep practical experience in **Python**, **SQL** and **NoSQL** databases, event-driven architectures, **ETL** pipelines and **REST API**s.\n\nIn addition to my Data Engineering and Backend development skills I led the development of key AI-powered features at Artera, including the **Recommender System**, **'Image Capture'**, **'AI-tagging'** and more! \n\n Sometimes I create Telegram or Discord bots for fun, [contact me](#contact) if you need some help, I'm sure we can build something cool together! 🤗 \n\nEmail: [**kshvidler@gmail.com**](mailto:kshvidler@gmail.com)",
   avatarUrl: "/profile-pic-linkedin.jpeg",
   skills: [
     "#Data-Engineering",
@@ -162,18 +162,15 @@ export const DATA = {
         "",
     },
     {
-      title: "This Personal Page",
+      title: "This Website",
       href: "#",
-      dates: "Sep 30th 2024",
+      dates: "2024",
       active: false,
       description:
-        "Used a template and filled in text",
+        "Personal portfolio page, modified a public Next.js template",
       technologies: [
         "Next.js",
         "Typescript",
-        "git fork",
-        "keyboard",
-        "lack of frontend skills",
         "Shadcn UI",
         "Magic UI",
       ],
@@ -183,6 +180,11 @@ export const DATA = {
           href: "#",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "GitHub",
+          href: "https://github.com/kshvidler/portfolio",
+          icon: <Icons.github className="size-3" />,
+        }
       ],
       image: "",
       video:
