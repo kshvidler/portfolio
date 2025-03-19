@@ -132,6 +132,31 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "'Herbie' AI Discord Agent",
+      href: "https://herbie.kirillshvidler.com",
+      dates: "2025",
+      active: true,
+      description:
+        "Self-aware, interactive Discord AI companion named Herbie.",
+      technologies: [
+        "React",
+        "LLMs",
+        "Shadcn UI",
+        "Discord SDK",
+        "Python"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://herbie.kirillshvidler.com",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "",
+      video:
+        "",
+    },
+    {
       title: "Artera",
       href: "https://onelink.to/txubcf",
       dates: "October 2022 - Present",
