@@ -8,7 +8,7 @@ export const DATA = {
   location: "London, United Kingdom",
   locationLink: "https://www.google.com/maps/place/london",
   description:
-    "Data Scientist & Data Engineer with a proven track record of designing scalable cloud infrastructure and building AI-powered solutions. I am also a Maths enthusiast with an Masters degree in Statistics from University of Warwick",
+    "Founding Engineer with a proven track record of designing scalable cloud infrastructure and building AI-powered solutions. I am also a Maths enthusiast with an Masters degree in Statistics from University of Warwick",
   summary:
     "As a founding engineer at [Artera](https://artera.ae), a cutting edge art-tech platform, I architected, deployed and maintained scalable cloud infrastructure on **AWS**, optimized for high availability and cost efficiency. I possess deep practical experience in **Python**, **SQL** and **NoSQL** databases, event-driven architectures, **ETL** pipelines and **REST API**s.\n\nIn addition to my Data Engineering and Backend development skills I led the development of key AI-powered features at Artera, including the **Recommender System**, **'Image Capture'**, **'AI-tagging'** and more! \n\n Sometimes I create Telegram or Discord bots for fun, [contact me](#contact) if you need some help, I'm sure we can build something cool together! 🤗 \n\nEmail: [**kshvidler@gmail.com**](mailto:kshvidler@gmail.com)",
   avatarUrl: "/profile-pic-linkedin.jpeg",
@@ -22,6 +22,8 @@ export const DATA = {
     "Python",
     "PyTorch",
     "Flask",
+    "FastAPI",
+    "Django",
     "AWS",
     "PostgreSQL",
     "Cassandra",
@@ -30,6 +32,7 @@ export const DATA = {
     "Docker",
     "Javascript",
     "Three.js",
+    "Next.JS",
     "FAISS",
     "AWS ECS",
     "AWS Lambda",
@@ -75,13 +78,16 @@ export const DATA = {
       href: "https://artera.ae",
       badges: [],
       location: "London, UK",
-      title: "Data Scientist & Cloud Engineer",
+      title: "Founding Engineer",
       logoUrl: "/artera-logo.png",
       start: "October 2022",
       end: "Present",
-      description: "- **Designed**, **deployed**, and **maintained** all cloud infrastructure on AWS.\n" +
+      description: "- **Designed**, **deployed**, and **maintained** all cloud infrastructure on AWS supporting the backend of an app with **100k+ downloads** and **20k+ users** .\n" +
+        "- **Designed** all data models, including all transactional SQL and NoSQL databases as well as analytical Data Warehouses\n" +
+        "- **Designed and Deployed** an internal vector database using HNSW indexes in FAISS which was faster and cheaper than Milvus, Pinecone or other similar alternatives \n" +
         "- **Developed** the core ML algorithms in **Python** powering the main features in our app, including 'Image-Capture' and our personalized recommendation algorithm designed to revolutionize art exploration.\n" +
-        "- **Architected** serverless infrastructure on AWS, hosting various custom ONNX models as well as event-driven backend microservices.\n" +
+        "- **Integrated** Google Gemini Multimodal LLM into the upload pipelines, automating content quality control.\n" +
+        "- **Architected** serverless infrastructure on AWS , hosting various custom ONNX models as well as event-driven backend microservices.\n" +
         "- **Led** a team of engineers, supervising essential projects and planning the development cycle.\n" +
         "- **Secured** important tech partnerships with **AWS** and **DataStax**.",
     },
@@ -131,6 +137,31 @@ export const DATA = {
     }
   ],
   projects: [
+    {
+      title: "Pet Thought Transator",
+      href: "https://herbie.kirillshvidler.com",
+      dates: "2025",
+      active: true,
+      description:
+        "Telegram Bot which translates your pet's thoughts from an image!",
+      technologies: [
+        "Telegram",
+        "LLMs",
+        "Python",
+        "AWS Lambda",
+        "Google Gemini"
+      ],
+      links: [
+        {
+          type: "Telegram Bot",
+          href: "https://t.me/pet_translate_bot?start=326055551",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "",
+      video:
+        "",
+    },
     {
       title: "'Herbie' AI Discord Agent",
       href: "https://herbie.kirillshvidler.com",
