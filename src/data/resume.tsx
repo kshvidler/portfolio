@@ -84,7 +84,7 @@ export const DATA = {
       end: "Present",
       description: "- **Designed**, **deployed**, and **maintained** all cloud infrastructure on AWS supporting the backend of an app with **100k+ downloads** and **20k+ users** .\n" +
         "- **Designed** all data models, including all transactional SQL and NoSQL databases as well as analytical Data Warehouses\n" +
-        "- **Designed and Deployed** an internal vector database using HNSW indexes in FAISS which was faster and cheaper than Milvus, Pinecone or other similar alternatives \n" +
+        "- **Designed and Deployed** an internal vector database using HNSW indexes in FAISS which created a solution that was 200% faster and 120% cheaper than Milvus, Pinecone or other similar alternatives \n" +
         "- **Developed** the core ML algorithms in **Python** powering the main features in our app, including 'Image-Capture' and our personalized recommendation algorithm designed to revolutionize art exploration.\n" +
         "- **Integrated** Google Gemini Multimodal LLM into the upload pipelines, automating content quality control.\n" +
         "- **Architected** serverless infrastructure on AWS , hosting various custom ONNX models as well as event-driven backend microservices.\n" +
@@ -138,8 +138,32 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Three.js Iris",
+      href: "https://kirillshvidler.com/iris",
+      dates: "2024",
+      active: false,
+      description:
+        "Just a cool visualization i've done.",
+      technologies: [
+        "Three.js",
+        "HTML",
+        "JavaScript",
+        "Creative Work"
+      ],
+      links: [
+        {
+          type: "Visualization",
+          href: "https://kirillshvidler.com/iris",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/iris.jpg",
+      video:
+        "",
+    },
+    {
       title: "Pet Thought Transator",
-      href: "https://herbie.kirillshvidler.com",
+      href: "https://t.me/pet_translate_bot?start=326055551",
       dates: "2025",
       active: true,
       description:
@@ -158,7 +182,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "",
+      image: "/pet-translator.png",
       video:
         "",
     },
@@ -168,7 +192,7 @@ export const DATA = {
       dates: "2025",
       active: true,
       description:
-        "Self-aware, interactive Discord AI companion named Herbie.",
+        "(In Development) Self-aware, interactive Discord AI companion named Herbie.",
       technologies: [
         "React",
         "LLMs",
@@ -183,7 +207,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         }
       ],
-      image: "",
+      image: "/herbie-avatar.png",
       video:
         "",
     },
@@ -213,7 +237,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/artera-logo.png",
       video:
         "",
     },

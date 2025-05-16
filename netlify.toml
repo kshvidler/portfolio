@@ -6,3 +6,8 @@
 [context.production.environment]
   NODE_VERSION = "18.17.1"
   PNPM_VERSION = "9.1.4"
+
+[[redirects]]
+  from = "/iris"
+  to   = "/iris/index.html"
+  status = 200
