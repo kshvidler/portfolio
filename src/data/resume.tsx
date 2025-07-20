@@ -62,6 +62,13 @@ export const DATA = {
 
         navbar: true,
       },
+      Twitter: {
+        name: "X",
+        url: "https://x.com/kshvidler",
+        icon: Icons.x,
+
+        navbar: true,
+      },
       email: {
         name: "Send Email",
         url: "mailto: kshvidler@gmail.com",
