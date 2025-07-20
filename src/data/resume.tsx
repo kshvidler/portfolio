@@ -8,7 +8,7 @@ export const DATA = {
   location: "London, United Kingdom",
   locationLink: "https://www.google.com/maps/place/london",
   description:
-    "Founding Engineer with a proven track record of designing scalable cloud infrastructure and building AI-powered solutions. I am also a Maths enthusiast with an Masters degree in Statistics from University of Warwick",
+    "Founding Engineer with a proven track record of designing scalable cloud infrastructure and building AI-powered solutions. I am also a Maths enthusiast with a Masters degree in Statistics from the University of Warwick",
   summary:
     "As a founding engineer at [Artera](https://artera.ae), a cutting edge art-tech platform, I architected, deployed and maintained scalable cloud infrastructure on **AWS**, optimized for high availability and cost efficiency. I possess deep practical experience in **Python**, **SQL** and **NoSQL** databases, event-driven architectures, **ETL** pipelines and **REST API**s.\n\nIn addition to my Data Engineering and Backend development skills I led the development of key AI-powered features at Artera, including the **Recommender System**, **'Image Capture'**, **'AI-tagging'** and more! \n\n Currently building a SaaS for X content Automation - dartpost.app, [contact me](#contact) if you need some help, I'm sure we can build something cool together! 🤗 \n\nEmail: [**kshvidler@gmail.com**](mailto:kshvidler@gmail.com)",
   avatarUrl: "/profile-pic-linkedin.jpeg",
