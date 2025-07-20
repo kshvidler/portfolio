@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Founding Engineer with a proven track record of designing scalable cloud infrastructure and building AI-powered solutions. I am also a Maths enthusiast with an Masters degree in Statistics from University of Warwick",
   summary:
-    "As a founding engineer at [Artera](https://artera.ae), a cutting edge art-tech platform, I architected, deployed and maintained scalable cloud infrastructure on **AWS**, optimized for high availability and cost efficiency. I possess deep practical experience in **Python**, **SQL** and **NoSQL** databases, event-driven architectures, **ETL** pipelines and **REST API**s.\n\nIn addition to my Data Engineering and Backend development skills I led the development of key AI-powered features at Artera, including the **Recommender System**, **'Image Capture'**, **'AI-tagging'** and more! \n\n Sometimes I create Telegram or Discord bots for fun, [contact me](#contact) if you need some help, I'm sure we can build something cool together! 🤗 \n\nEmail: [**kshvidler@gmail.com**](mailto:kshvidler@gmail.com)",
+    "As a founding engineer at [Artera](https://artera.ae), a cutting edge art-tech platform, I architected, deployed and maintained scalable cloud infrastructure on **AWS**, optimized for high availability and cost efficiency. I possess deep practical experience in **Python**, **SQL** and **NoSQL** databases, event-driven architectures, **ETL** pipelines and **REST API**s.\n\nIn addition to my Data Engineering and Backend development skills I led the development of key AI-powered features at Artera, including the **Recommender System**, **'Image Capture'**, **'AI-tagging'** and more! \n\n Currently building a SaaS for X content Automation - dartpost.app, [contact me](#contact) if you need some help, I'm sure we can build something cool together! 🤗 \n\nEmail: [**kshvidler@gmail.com**](mailto:kshvidler@gmail.com)",
   avatarUrl: "/profile-pic-linkedin.jpeg",
   skills: [
     "#Data-Engineering",
@@ -137,6 +137,30 @@ export const DATA = {
     }
   ],
   projects: [
+    {
+      title: "DartPost",
+      href: "https://dartpost.app",
+      dates: "2025",
+      active: true,
+      description:
+        "AI-powered X Content Generator and Scheduler.",
+      technologies: [
+        "FastAPI",
+        "Next.js",
+        "Supabase",
+        "AWS"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://dartpost.app",
+          icon: <Icons.globe className="size-3" />,
+        }
+      ],
+      image: "/dartpost.png",
+      video:
+        "",
+    },
     {
       title: "Three.js Iris",
       href: "https://kirillshvidler.com/iris",
